@@ -1,0 +1,144 @@
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #F2F2F2;
+    background-image: url(./images/bg-main-mobile.png);
+    background-position: left;
+    
+}
+.main-container{
+    width: 100%;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 24px;
+    gap: 64px;
+}
+.insidecontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.45px;
+}
+.container p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.middle{
+    background-color: black;
+    background-image: url(./images/bg-pattern-2.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 280px;
+}
+.mobile{
+    width: 208.97px;
+    /* position: absolute; */
+}
+.content{
+    width: 375px;
+    background-color: #FA7453;
+    color: #FCFAF9;
+    display: flex;
+    flex-direction: column;
+    padding: 36px;
+    box-sizing: border-box;
+    gap: 16px;
+}
+.content h1{
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+}
+.content p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.content h2 span{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+}
+.content h2{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+}
+.firstbutton{
+    background-color: black;
+    color: #FCFAF9;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    border-radius: 12px;
+    border: none;
+    width: 296px;
+    height: 61px;
+}
+.firstbutton img{
+    width: 17.08px;
+    height: 15.32px;
+}
+.secondbutton{
+    background-color:#FCFAF9;
+    color: black;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    border: none;
+    width: 296px;
+    height: 61px;
+}
+.secondbbutton img{
+    width: 10.02px;
+    height: 5.8px;
+}
+.lastdiv{
+    background-color: #F2F2F2;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding: 24px;
+}
+.lastdiv h1{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    margin-top: 32px;
+}
+.lastdiv h1 span{
+    font-weight: 400;
+}
+.logos{
+    display: flex;
+    gap: 20px;
+}
+@media(min-width:768px){
+    body{
+        background-image: url(./images/bg-pattern-1.svg);
+        background-repeat: no-repeat;
+        background-size:230px ;
+        background-position:493px -61px;
+    }
+    .container{
+        
+    }
+    .insidecontainer{
+        width: 375px;
+    }
+}
