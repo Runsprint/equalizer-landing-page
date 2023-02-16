@@ -137,13 +137,15 @@ body{
 }
 @media(min-width:768px){
     body{
-        background-repeat: repeat-x;
+        background-image: url(./images/bg-main-tablet.png);
+        background-size: cover;
+        background-position: right -513px top -427px;
     }
     .main-container{
       background-image: url(./images/bg-pattern-1.svg);
         background-repeat: no-repeat;
         background-size:230px ;
-        background-position:91% -60px;  
+        background-position:100% -60px;  
     }
     .insidecontainer h1{
         font-size: 64px;
@@ -170,7 +172,7 @@ body{
     }
     .content{
          margin-top: -253px;
-        position: fixed;
+        position: absolute;
         left: 221px;
         border-radius: 13px;
         width: 399px;
@@ -187,8 +189,65 @@ body{
     .lastdiv h1{
         width: 366px;
     }
+    .lastdiv{
+        align-items: center;
+       }
     .logos{
         width: 20px;
         height: 20px;
     }
 }
+@media(min-width:1440px){
+    body{
+        background-image: url(./images/bg-main-desktop.png);
+        background-repeat: no-repeat;
+        background-position: -290px;
+        background-size: inherit;
+    }
+    .main-container{
+        background-size:300px ;
+        background-position:100% -40px;  
+    }
+    .container{
+        padding: 165px;
+    }
+    .insidecontainer h1{
+        font-size: 88px;
+        line-height: 88px;
+        width: 1015px;
+    }
+    .insidecontainer p{
+        font-size: 20px;
+        width: 825px;
+    }
+    .middle{
+        width: 1110px;
+    }
+    .content{
+       left: 775px;
+       top: 1276px;
+   }
+   .mobile{
+    left: 215px;
+   }
+   .lastdiv{
+    align-items: center;
+   }
+   .fordesktop{
+    display: flex;
+    gap: 137.76px;
+    align-items: center;
+   }
+   .facebook:hover{
+    background-color: #FFB964;
+    cursor: pointer;
+   }
+   .firstbutton:hover{
+    background-color: #66E2DC;
+    cursor: pointer;
+   }
+  .secondbutton:hover{
+    background-color: #FFB964;
+    cursor: pointer;
+  }
+    }
